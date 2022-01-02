@@ -10,13 +10,15 @@ https://github.com/alibaba/Sentinel/issues/2451
 
 ## source
 
-![image-20220102190441213](img/image-20220102190441213.png)
+![image-20220102190441213](https://user-images.githubusercontent.com/63966847/147877579-bc3f1a6c-e274-409e-98e3-401259ca6815.png)
 
-![image-20220102190456538](img/image-20220102190456538.png)
+
+![image-20220102190456538](https://user-images.githubusercontent.com/63966847/147877583-77e3152f-c4d8-4fd1-bd4f-8e1775df54bf.png)
+
 
 ## sink
 
-![image-20220102190519809](img/image-20220102190519809.png)
+![image-20220102190519809](https://user-images.githubusercontent.com/63966847/147877588-ff6b13b7-d192-4913-a419-e3044634df93.png)
 
 exp
 
