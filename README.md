@@ -1,5 +1,7 @@
 # CodeqlLearn
 
+>在safe6sec师傅的基础上修改的，更加适合自己
+
 # AST
 
 https://www.jianshu.com/p/ff8ec920f5b9
