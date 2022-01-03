@@ -93,4 +93,65 @@ from MethodAccess call, Method method, DataFlow::Node src
 where method.hasName("setIp") and method.getDeclaringType().getAnAncestor().hasQualifiedName("com.alibaba.csp.sentinel.dashboard.discovery", "MachineInfo") and call.getMethod() = method and src instanceof RemoteFlowSource 
 select call
 ```
+---------------------------------------------------------------------------------
+更新 2021/1/3
+
+让safe6sec师傅看了看，师傅说sink点需要是危险的地方，之前的setip不能这样。
+
+和师傅讨论弄了一下午加一晚上终于弄出来了(主要是safe6sec师傅在弄 hhhh
+
+```ql
+/**
+ * @id Sentinel
+ * @name Ssrf
+ * @description Ssrf
+ * @kind path-problem
+ * @problem.severity warning
+ */
+
+import java
+import semmle.code.java.dataflow.TaintTracking
+import semmle.code.java.dataflow.FlowSources
+import DataFlow::PathGraph
+
+//连接setip到getip
+predicate isTaintedString(Expr expSrc, Expr expDest) {
+  exists(Method method1,Method method2, MethodAccess call1,MethodAccess call2|
+    method1.getName()="setIp" and call1.getMethod() = method1 and expSrc = call1.getAnArgument()//获得setip方法的参数
+    and
+    method2.getName()="getIp" and call2.getMethod() = method2 and expDest = call2 
+    )
+}
+
+class SsrfConfig extends TaintTracking::Configuration {
+  SsrfConfig() { this = "SsrfConfig" }
+
+  override predicate isSource(DataFlow::Node src) { 
+    src instanceof RemoteFlowSource//默认的
+   }
+
+   //sink 
+	override predicate isSink(DataFlow::Node sink) {
+	   exists(ConstructorCall call, Class clz| 
+		call.getAnArgument() = sink.asExpr()
+		and call.getConstructedType()=clz 
+		and clz.getName()="HttpGet"
+		)
+  }
+
+  override predicate isAdditionalTaintStep(DataFlow::Node node1, DataFlow::Node node2) {
+    isTaintedString(node1.asExpr(), node2.asExpr())
+  }
+
+}
+
+from SsrfConfig config, DataFlow::PathNode source, DataFlow::PathNode sink
+where config.hasFlowPath(source, sink)
+select source.getNode(), source, sink, "source"
+
+// from Method method1,MethodAccess call1,DataFlow::Node expSrc
+// where method1.getName()="setIp" and call1.getMethod() = method1 and expSrc.asExpr() = call1.getAnArgument()
+// select call1,expSrc,call1.getAnArgument(),1
+```
+
 
