@@ -100,6 +100,8 @@ select call
 
 和师傅讨论弄了一下午加一晚上终于弄出来了(主要是safe6sec师傅在弄 hhhh
 
+感谢safe6sec师傅
+
 ```ql
 /**
  * @id Sentinel
@@ -154,4 +156,5 @@ select source.getNode(), source, sink, "source"
 // select call1,expSrc,call1.getAnArgument(),1
 ```
 
+![image](https://user-images.githubusercontent.com/63966847/147954723-35bcda60-b9d3-403a-8178-8998bd79049f.png)
 
