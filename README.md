@@ -61,6 +61,8 @@ https://www.jianshu.com/p/68fcbc154c2f
 - [用codeql分析grafana最新任意文件读取]()      :heavy_check_mark:
 - [codeql学习——污点分析](https://xz.aliyun.com/t/7789)  :heavy_check_mark:
 - [CodeQL从0到1(内附Shiro检测demo)](https://www.anquanke.com/post/id/255721)    :heavy_check_mark:
+- [Codeql分析Vulnerability-GoApp](https://www.freebuf.com/articles/web/253491.html)         :heavy_check_mark: (go语言)
+
 
 # 下载
 
