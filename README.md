@@ -20,7 +20,6 @@ https://www.jianshu.com/p/68fcbc154c2f
 - [CodeQL笔记](https://lfysec.top/2020/06/03/CodeQL%E7%AC%94%E8%AE%B0/)             :heavy_check_mark:
 - [代码分析引擎 CodeQL 初体验](https://paper.seebug.org/1078)      :heavy_check_mark:
 - [codeql学习笔记](https://zhuanlan.zhihu.com/p/354275826)      :heavy_check_mark:
-
 - [CodeQL for Golang Practise(3)](http://f4bb1t.com/post/2020/12/16/codeql-for-golang-practise3/)
 - [CodeQL静态代码扫描之实现关联接口、入参、和危险方法并自动化构造payload及抽象类探究](https://mp.weixin.qq.com/s/Rqo12z9mapwlj6wGHZ1zZA)
 - [Codeql分析Vulnerability-GoApp - FreeBuf网络安全行业门户](https://www.freebuf.com/articles/web/253491.html)
