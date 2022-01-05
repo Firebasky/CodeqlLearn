@@ -61,7 +61,6 @@ https://www.jianshu.com/p/68fcbc154c2f
 - [利用CodeQL分析并挖掘Log4j漏洞](https://mp.weixin.qq.com/s/JYco8DysQNszMohH6zJEGw)
 - [使用codeql 挖掘 ofcms](https://www.anquanke.com/post/id/203674)         :heavy_check_mark:
 - [使用codeql挖掘fastjson利用链](https://xz.aliyun.com/t/7482)          :heavy_check_mark:
-- [利用CodeQL分析并挖掘Log4j漏洞](https://xz.aliyun.com/t/10707#toc-0)         
 - [用codeql分析grafana最新任意文件读取]()      :heavy_check_mark:
 - [codeql学习——污点分析](https://xz.aliyun.com/t/7789)  :heavy_check_mark:
 - [CodeQL从0到1(内附Shiro检测demo)](https://www.anquanke.com/post/id/255721)
