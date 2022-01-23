@@ -51,6 +51,8 @@ https://www.jianshu.com/p/68fcbc154c2f
 - [南大软件分析课程](https://space.bilibili.com/2919428?share_medium=iphone&share_plat=ios&share_session_id=6851D997-0AC6-4C67-B858-BD1E6258C548&share_source=COPY&share_tag=s_i&timestamp=1639480132&unique_k=8wQBAkV)
 - [各种语言危险sink](https://github.com/haby0/sec-note)
 
+# 环境搭建
+- [编译OpenJDK8并生成CodeQL数据库](https://blog.csdn.net/mole_exp/article/details/122330521)   :heavy_check_mark:   **对jdk进行ql用处多多。。**
 
 # 真实例子
 
