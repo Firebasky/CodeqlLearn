@@ -65,6 +65,7 @@ https://www.jianshu.com/p/68fcbc154c2f
 - [Codeql分析Vulnerability-GoApp](https://www.freebuf.com/articles/web/253491.html)         :heavy_check_mark: (go语言)
 - [如何用CodeQL数据流复现 apache kylin命令执行漏洞 - 先知社区](https://xz.aliyun.com/t/8240)  :heavy_check_mark:
 - [从Java反序列化漏洞题看CodeQL数据流](https://www.anquanke.com/post/id/256967)   :heavy_check_mark:
+- [CodeQL 学习小记](https://www.buaq.net/go-98696.html) :heavy_check_mark:
 
 
 # 下载
