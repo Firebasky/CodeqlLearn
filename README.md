@@ -47,7 +47,6 @@ https://www.jianshu.com/p/68fcbc154c2f
 - [CodeQL query help for Go — CodeQL query help documentation](https://codeql.github.com/codeql-query-help/go/#)
 - [codeql使用指南_zzzzfeng的博客-CSDN博客_codeql使用](https://blog.csdn.net/haoren_xhf/article/details/115064677)
 - [Apache Dubbo：条条大路通RCE | GitHub 安全实验室](https://securitylab.github.com/research/apache-dubbo/)
-- [如何用CodeQL数据流复现 apache kylin命令执行漏洞 - 先知社区](https://xz.aliyun.com/t/8240)
 - [南大软件分析课程](https://space.bilibili.com/2919428?share_medium=iphone&share_plat=ios&share_session_id=6851D997-0AC6-4C67-B858-BD1E6258C548&share_source=COPY&share_tag=s_i&timestamp=1639480132&unique_k=8wQBAkV)
 - [各种语言危险sink](https://github.com/haby0/sec-note)
 
@@ -64,6 +63,7 @@ https://www.jianshu.com/p/68fcbc154c2f
 - [codeql学习——污点分析](https://xz.aliyun.com/t/7789)  :heavy_check_mark:
 - [CodeQL从0到1(内附Shiro检测demo)](https://www.anquanke.com/post/id/255721)    :heavy_check_mark:
 - [Codeql分析Vulnerability-GoApp](https://www.freebuf.com/articles/web/253491.html)         :heavy_check_mark: (go语言)
+- [如何用CodeQL数据流复现 apache kylin命令执行漏洞 - 先知社区](https://xz.aliyun.com/t/8240)  :heavy_check_mark:
 
 
 # 下载
