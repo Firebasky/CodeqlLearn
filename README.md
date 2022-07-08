@@ -22,6 +22,7 @@ https://www.jianshu.com/p/68fcbc154c2f
 - [codeql学习笔记](https://zhuanlan.zhihu.com/p/354275826)      :heavy_check_mark:
 - [CodeQL学习——CodeQl数据流分析 - bamb00 - 博客园](https://www.cnblogs.com/goodhacker/p/13583650.html)      :heavy_check_mark:
 - [原创 |CodeQL与AST之间联系](https://mp.weixin.qq.com/s?__biz=MzI4Mzc0MTI0Mw==&mid=2247493662&idx=2&sn=8cead6291bb8f3c130093e6006089b5d&chksm=eb84b54adcf33c5c6ef57c685d221fda68e0cedba2a59b886f3079d4d50884b70689c31d43b8&mpshare=1&scene=23&srcid=0501LyVqcDU5vQ7Izenx2oim&sharer_sharetime=1651408304150&sharer_shareid=d74249cca329fbfc7dc218e59f3897aa#rd)    :heavy_check_mark:
+- [使用静态代码检测微服务越权、未授权访问漏洞](https://mp.weixin.qq.com/s?__biz=MzA4NzA5OTYzNw==&mid=2247484233&idx=1&sn=dec528945d54fe94c6492c3b774b5d81&chksm=903fd2d3a7485bc569a3ea4bc9ea8d2837224389e8c6351c99c0aba815270e2c84f528cfa6ba&mpshare=1&scene=23&srcid=07081Nc37ZXSTAMgk5b7cpG0&sharer_sharetime=1657244441300&sharer_shareid=33fdea7abe6be586e131951d667ccd06#rd)   :heavy_check_mark:
 - [CodeQL for Golang Practise(3)](http://f4bb1t.com/post/2020/12/16/codeql-for-golang-practise3/)
 - [CodeQL静态代码扫描之实现关联接口、入参、和危险方法并自动化构造payload及抽象类探究](https://mp.weixin.qq.com/s/Rqo12z9mapwlj6wGHZ1zZA)
 - [Codeql分析Vulnerability-GoApp - FreeBuf网络安全行业门户](https://www.freebuf.com/articles/web/253491.html)
